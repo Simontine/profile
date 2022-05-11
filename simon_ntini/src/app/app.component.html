@@ -95,7 +95,7 @@
             </ul>
 </nav> -->
 
-<a class="btn btn-button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+<!-- <a class="btn btn-button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
     aria-controls="offcanvasExample">
     <i class="fa fa-list fa-2x"></i>
     <span class="nav-text">
@@ -115,7 +115,7 @@
         </div>
         <div class="dropdown mt-3">
 
-            <ul>
+            <ul style="list-style: none;">
                 <li><a class="dropdown-item" routerLink="/home">Home</a></li>
                 <li><a class="dropdown-item" routerLink="/skills">Skills</a></li>
                 <li><a class="dropdown-item" routerLink="/projects">Projects</a></li>
@@ -128,8 +128,39 @@
     </div>
 
     
-</div>
+</div> -->
 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand px-5" routerLink="/home">Simon Ntini</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " routerLink="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/experience">Experience</a>
+                </li>
+            </ul>
+            <form class="d-flex px-5">
+                <button class="btn btn-outline-primary" type="submit" routerLink="/contact">Hire Me</button>
+            </form>
+        </div>
+    </div>
+</nav>
 
 <router-outlet></router-outlet>
-
