@@ -1,14 +1,91 @@
-.btn-primary{
-    background-color: #003D5C;
-    outline: #003D5C;
+.btn-primary {
+    background-color: #003d5c;
+    outline: #003d5c;
 }
-
-a:hover{
+.textColor{
     color: #003D5C;
+}
+a:hover {
+    color: #003d5c;
+    background-color: white;
     // background-color: red;
 }
 
 img {
     width: 100%;
     height: auto;
-  }
+}
+
+.intro {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 51px;
+    color: #002233;
+}
+
+button {
+    border-radius: 50.5px;
+    border-color: #003d5c;
+    background-color: #003d5c;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #003d5c;
+    border-color: #003D5C;
+}
+
+
+
+// Hero
+
+@keyframes animation-1 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.header-hero .shape {
+    position: absolute;
+}
+
+.header-hero .shape.shape-1 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 130px;
+    top: 20%;
+    border-radius: 50%;
+    background: #637ae4;
+    animation: animation-1 2s linear infinite;
+}
+
+.header-hero .shape.shape-2 {
+    width: 39px;
+    height: 39px;
+    left: 150px;
+    bottom: 40px;
+    border-radius: 50%;
+    background: #0898e7;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-3 {
+    width: 19px;
+    height: 19px;
+    left: 26px;
+    bottom: 25%;
+    border-radius: 50%;
+    background: #ff846f;
+    animation: animation-1 2s linear infinite;
+}
+// end of Hero
