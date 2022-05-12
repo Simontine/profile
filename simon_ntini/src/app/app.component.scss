@@ -1,6 +1,11 @@
 
 
-
+.primar:hover
+{
+    color: red;
+    background-color: red;
+    border: red;
+}
 a:hover
 {
     color: red;
@@ -13,3 +18,112 @@ font-weight: 600;
 font-size: 32px;
 line-height: 48px;
 }
+
+.footer {
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+
+
+  .navbar-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.sticky {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    position: relative;
+   // padding: 20px 0;
+
+}
+
+
+.navbar-brand .image {
+    max-width: 67px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 5px 12px;
+        background-color: #fff;
+        box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+    }
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #38424d;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007ACC;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    bottom: 0;
+    left: 50%;
+    border-radius: 50%;
+    background-color: #38424d;
+    opacity: 0;
+    transition: all .3 ease-out 0s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .navbar-nav .nav-item .nav-link::before {
+        position: relative;
+    }
+}
+
+.navbar-nav .nav-item .nav-link.active::before,
+.navbar-nav .nav-item .nav-link:hover::before {
+    opacity: 1;
+}
+
+.intro {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    color: #002233;
+}
+
