@@ -150,12 +150,12 @@
                     <a class="nav-link" href="https://linkedin.com/in/simon-ntini-295068203">LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/experience">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " routerLink="/about">About</a>
+                    <a class="nav-link" routerLink="/about">About</a>
                 </li>
-                
+
             </ul>
             <form class="d-flex px-5">
                 <button class="btn btn-outline-info" type="submit" routerLink="/contact">Hire Me</button>
@@ -165,8 +165,14 @@
 </nav>
 
 
- 
+
 
 <router-outlet></router-outlet>
 
-
+<div class="d-flex flex-column">
+    <app-homepage></app-homepage>
+    <app-qualification></app-qualification>
+    <!-- <app-skills></app-skills> -->
+    <!-- <app-about></app-about> -->
+    <app-contact></app-contact>
+</div>

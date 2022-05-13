@@ -5,20 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './componets/homepage/homepage.component';
 import { AboutComponent } from './componets/about/about.component';
-import { ContactComponent } from './componets/contact/contact.component';
 import { ProjectsComponent } from './componets/projects/projects.component';
-import { SkillsComponent } from './componets/skills/skills.component';
 import { ErrorPageComponent } from './componets/error-page/error-page.component';
+import { ContactComponent } from './componets/contact/contact.component';
+import { QualificationComponent } from './componets/qualification/qualification.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     AboutComponent,
-    ContactComponent,
     ProjectsComponent,
-    SkillsComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    ContactComponent,
+    QualificationComponent
   ],
   imports: [
     BrowserModule,

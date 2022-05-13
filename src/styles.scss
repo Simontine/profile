@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-primary {
+    background-color: #003d5c;
+    outline: #003d5c;
+}
+.textColor{
+    color: #003D5C;
+}
+a:hover {
+    color: #003d5c;
+    background-color: white;
+    // background-color: red;
+}
+
+
+
+.intro {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 51px;
+    color: #002233;
+}
+
+button {
+    border-radius: 50.5px;
+    border-color: #003d5c;
+    background-color: #003d5c;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #003d5c;
+    border-color: #003D5C;
+}
