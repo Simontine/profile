@@ -9,6 +9,8 @@ import { ProjectsComponent } from './componets/projects/projects.component';
 import { ErrorPageComponent } from './componets/error-page/error-page.component';
 import { ContactComponent } from './componets/contact/contact.component';
 import { QualificationComponent } from './componets/qualification/qualification.component';
+import { SkillsComponent } from './componets/skills/skills.component';
+import { NavbarComponent } from './componets/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { QualificationComponent } from './componets/qualification/qualification.
     ProjectsComponent,
     ErrorPageComponent,
     ContactComponent,
-    QualificationComponent
+    QualificationComponent,
+    SkillsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

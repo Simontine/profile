@@ -1,178 +1,20 @@
-<!-- 
-
-<div class="area"></div>
-<nav class="main-menu">
-    <ul>
-        
-        <li>
-            <a routerLink="/home">
-                <i class="fa fa-home fa-2x"></i>
-                <span class="nav-text">
-                    Home Page
-                </span>
-            </a>
-
-        </li>
-        <li class="has-subnav">
-            <a href="#">
-                <i class="fa fa-laptop fa-2x"></i>
-                <span class="nav-text">
-                    Projects
-                </span>
-            </a>
-
-        </li>
-        <li class="has-subnav">
-            <a href="#">
-                <i class="fa fa-list fa-2x"></i>
-                <span class="nav-text">
-                    Skills
-                </span>
-            </a>
-
-        </li>
-        <li class="has-subnav">
-                    <a routerLink="/about">
-                       <i class="fa fa-folder-open fa-2x"></i>
-                       <i class="fa fa-address-card"></i>
-                        <span class="nav-text">
-                            About
-                        </span>
-                    </a>
-                   
-                </li> 
-        <li>
-                    <a href="#">
-                        <i class="fa fa-bar-chart-o fa-2x"></i>
-                        <span class="nav-text">
-                            Graphs and Statistics
-                        </span>
-                    </a>
-                </li>
-        <li>
-            <a routerLink="/about">
-                <i class="fa fa-font fa-2x"></i>
-                <span class="nav-text">
-                    About
-                </span>
-            </a>
-        </li>
-        <li>
-                   <a href="#">
-                       <i class="fa fa-table fa-2x"></i>
-                        <span class="nav-text">
-                            Tables
-                        </span>
-                    </a>
-                </li>
-                <li>
-                   <a href="#">
-                        <i class="fa fa-map-marker fa-2x"></i>
-                        <span class="nav-text">
-                            Maps
-                        </span>
-                    </a>
-                </li>
-        <li>
-            <a href="#">
-                <i class="fa fa-info fa-2x"></i>
-                <span class="nav-text">
-                    Documentation
-                </span>
-            </a>
-        </li>
-    </ul>
-
-    <ul class="logout">
-                <li>
-                   <a href="#">
-                         <i class="fa fa-power-off fa-2x"></i>
-                        <span class="nav-text">
-                            Logout
-                        </span>
-                    </a>
-                </li>  
-            </ul>
-</nav> -->
-
-<!-- <a class="btn btn-button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-    aria-controls="offcanvasExample">
-    <i class="fa fa-list fa-2x"></i>
-    <span class="nav-text">
-    </span>
-</a>
 
 
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-            etc.
-        </div>
-        <div class="dropdown mt-3">
-
-            <ul style="list-style: none;">
-                <li><a class="dropdown-item" routerLink="/home">Home</a></li>
-                <li><a class="dropdown-item" routerLink="/skills">Skills</a></li>
-                <li><a class="dropdown-item" routerLink="/projects">Projects</a></li>
-                <li><a class="dropdown-item" routerLink="/about">About</a></li>
-                <li><a class="dropdown-item" routerLink="/contact">Contact</a></li>
-
-            </ul>
-        </div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure nam corporis.
-    </div>
-
-    
+<!-- <app-navbar></app-navbar> -->
+<!-- <div class="d-flex flex-column">
+    <app-navbar></app-navbar>
+    <app-homepage></app-homepage>
+    <app-about></app-about>
+    <app-skills></app-skills>
+    <app-contact></app-contact>
 </div> -->
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand px-5 intro" routerLink="/home">Developly</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" routerLink="/home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/Simontine">GitHub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://linkedin.com/in/simon-ntini-295068203">LinkedIn</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/about">About</a>
-                </li>
-
-            </ul>
-            <form class="d-flex px-5">
-                <button class="btn btn-outline-info" type="submit" routerLink="/contact">Hire Me</button>
-            </form>
-        </div>
-    </div>
-</nav>
-
+<navbar></navbar>
+<!-- <homepage></homepage> -->
+<!-- <about></about>
+<skills></skills>
+<contact></contact> -->
 
 
 
 <router-outlet></router-outlet>
-
-<div class="d-flex flex-column">
-    <app-homepage></app-homepage>
-    <app-qualification></app-qualification>
-    <!-- <app-skills></app-skills> -->
-    <!-- <app-about></app-about> -->
-    <app-contact></app-contact>
-</div>
