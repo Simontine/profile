@@ -47,7 +47,7 @@
   }
   
   body {
-    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+    background: linear-gradient(to right, white 0%, white 100%);
     font-size: 12px;
   }
   
@@ -130,7 +130,7 @@
     height: 3px;
     margin-left: 2px;
     border-radius: 8px;
-    background: #999;
+    background: #0ca3f0;
   }
   
   .screen-body {
@@ -151,7 +151,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    color: #ea1d6f;
+    color: #0ca3f0;
     font-size: 26px;
   }
   
@@ -163,13 +163,13 @@
     bottom: -10px;
     width: 25px;
     height: 4px;
-    background: #ea1d6f;
+    background: #002233;
   }
   
   .app-contact {
     margin-top: auto;
-    font-size: 8px;
-    color: #888;
+    font-size: 12px;
+    color: white;
   }
   
   .app-form-group {
@@ -199,7 +199,7 @@
   }
   
   .app-form-control::placeholder {
-    color: #666;
+    color: #0ca3f0;
   }
   
   .app-form-control:focus {
@@ -209,14 +209,14 @@
   .app-form-button {
     background: none;
     border: none;
-    color: #ea1d6f;
+    color: white;
     font-size: 14px;
     cursor: pointer;
     outline: none;
   }
   
   .app-form-button:hover {
-    color: #b9134f;
+    color: #0ca3f0;
   }
   
   .credits {
@@ -275,7 +275,10 @@
       padding: 0;
     }
   }
-
+.download
+{
+  color: #003D5C;
+}
   
 //   Back to top button
 
