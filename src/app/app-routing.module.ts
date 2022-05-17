@@ -11,11 +11,6 @@ import { NavbarComponent } from './componets/navbar/navbar.component';
 const routes: Routes = [
   {path: '', redirectTo:'home',pathMatch:'full'},
   {path: 'home', component: HomepageComponent},
-  // {path: 'skills', component: SkillsComponent},
-  // {path: 'about', component: AboutComponent},
-  // {path: 'contact', component: ContactComponent},
-  // {path: 'projects', component: ProjectsComponent},
-  // {path: 'navbar', component: NavbarComponent},
   {path: '**', component: ErrorPageComponent}
 ];
 
