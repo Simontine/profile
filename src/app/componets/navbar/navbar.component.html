@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand px-5 intro" routerLink="/home">Developly</a>
+        <a class="navbar-brand px-5 " (click)="goToSection('home')">Developly</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,18 +10,27 @@
                 <li class="nav-item">
                     <a class="nav-link" (click)="goToSection('home')">Home</a>
                 </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" (click)="goToSection('project')">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="goToSection('about')">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="goToSection('skills')">Skills</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" (click)="goToSection('contact')">Contact</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/Simontine">GitHub</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://linkedin.com/in/simon-ntini-295068203">LinkedIn</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" (click)="goToSection('contact')">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" (click)="goToSection('about')">About</a>
-                </li>
+                
 
             </ul>
             <form class="d-flex px-5">

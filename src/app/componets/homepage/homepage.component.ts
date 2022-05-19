@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+// ViewportScroller
 
 @Component({
   selector: 'homepage',
@@ -7,11 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   
 
   ngOnInit(): void {
   }
-
+  goToSection(section: string) {
+    this.scroller.scrollToAnchor(section)
+   }
 }

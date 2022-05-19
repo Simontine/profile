@@ -3,3 +3,18 @@ a:hover
     // background-color: red;
     border-radius: 19px;
 }
+
+.navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+}
+
+.navbar-brand
+{
+    font-family: 'Odibee Sans', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
